@@ -6,8 +6,8 @@
     <string name="action_settings">Paramètres</string>
     <string name="hello_world">Hello world!</string>
 
-    <string name="turn_autoscreen_on">Extinction automatique activé</string>
-    <string name="turn_autoscreen_off">Extinction automatique desactivé</string>
+    <string name="turn_autoscreen_on">Extinction automatique activée</string>
+    <string name="turn_autoscreen_off">Extinction automatique desactivée</string>
     <string name="device_management_explanation">Nécessite ce privilège pour pouvoir éteindre l\'écran</string>
     <string name="widget_title">Extinction automatique</string>
 
@@ -15,8 +15,8 @@
     <string name="pref_power_setting">Paramètres de l\'alimentation</string>
     <string name="pref_advanced_setting">Avancé</string>
 
-    <string name="pref_summary_charging_on">ne fonctionne que pendant le chargement</string>
-    <string name="pref_title_charging_on">Seulement quand branché</string>
+    <string name="pref_summary_charging_on">Fonctionne uniquement pendant le chargement</string>
+    <string name="pref_title_charging_on">Seulement pendant le chargement</string>
 
     <string name="pref_summary_auto_on">Allume/Éteint l\'écran automatiquement</string>
     <string name="pref_title_auto_on">Activer</string>
@@ -27,22 +27,22 @@
     <string name="title_about">À propos</string>
     <string name="title_changelog">Quoi de neuf</string>
 
-    <string name="pref_summary_disable_in_landscape">Pratique pour prendre des photos ou regarder des vidéos en mode paysage.</string>
+    <string name="pref_summary_disable_in_landscape">Pratique pour prendre des photos ou regarder des vidéos.</string>
     <string name="pref_title_disable_in_landscape">Désactiver en mode paysage</string>
 
     <string name="dialog_about_title">À propos</string>
     <string name="dialog_about_message" formatted="false">%s\nv%s</string>
 
-    <string name="pref_summary_timeout_lock">Laps de temps avant que l\'écran se désactive. \n\nParamètre actuel:%s</string>
+    <string name="pref_summary_timeout_lock">Durée avant la desactivation de l\'écran. \n\nActuellement : %s</string>
     <string name="pref_title_timeout_lock">Temps avant désactivation</string>
 
-    <string name="pref_summary_timeout_unlock">Laps de temps avant que l\'écran s\'active. \n\nParamètre actuel:%s</string>
+    <string name="pref_summary_timeout_unlock">Durée avant l\'activation de l\'écran. \n\nActuellement : %s</string>
     <string name="pref_title_timeout_unlock">Temps avant activation</string>
 
     <string name="pref_summary_partiallock">Fonctionne seulement sur QUELQUES appareils. Sur les autres, cette fonction ne marchera pas correctement. Essayez par vous-même.</string>
     <string name="pref_title_partiallock">Mode économie d\'énergie</string>
 
-    <string name="timeout_same">Comme la désactivation</string>
+    <string name="timeout_same">Identique à la désactivation</string>
     <string name="timeout_0">Directement</string>
     <string name="timeout_05">0.5 secondes</string>
     <string name="timeout_1">1 secondes</string>
@@ -151,13 +151,13 @@
     </string>
 
     <string name="pref_sleep_setting">Mode nuit (Beta)</string>
-    <string name="pref_summary_sleeping">pour réduire l\'usage de la batterie (encore un peu buggué, reportez les bugs si vous en trouvez)</string>
+    <string name="pref_summary_sleeping">Réduit l\'usage de la batterie (merci de reporter les bugs)</string>
     <string name="pref_title_sleeping">Désactiver pendant la nuit</string>
     <string name="sleep_start_title">Heure de démarrage du mode nuit</string>
     <string name="sleep_stop_title">Heure d\'arrêt du mode nuit</string>
 
-    <string name="pref_summary_show_notification">Inclut deux boutons pour activer ou non de l\'extinction automatique et pour éteindre l\'écran</string>
-    <string name="pref_title_show_notification">Activer la notification</string>
+    <string name="pref_summary_show_notification">Inclut deux boutons pour l\'extinction automatique et l\'extinction de l\'écran</string>
+    <string name="pref_title_show_notification">Activer les notification</string>
     <string name="statusbar_charging">Chargement en cours. Extinction automatique activée</string>
     <string name="statusbar_autoscreen_on">Extinction automatique activée</string>
     <string name="statusbar_autoscreen_off">Extinction automatique désactivée</string>
@@ -168,5 +168,14 @@
     <string name="pref_play_close_sound">Joue un son lors de l\'extinction automatique de l\'écran</string>
     <string name="pref_title_play_close_sound">Écouter le son</string>
 
+    <string name="pref_title_exclude_apps">Apps à exclure</string>
+    <string-array name="empty_array" />
+
+    <!-- toggle strategy -->
+    <string name="pref_onoff_related">Paramètres du toggle</string>
+
+    <string name="send_feedback">Envoyer un commentaire</string>
+    <string name="no_mail_client_warning">Aucun client mail n'est installé.</string>
+    <string name="feedback_subject">Retours sur l'app Autoscreenoff.</string>
 
 </resources>
